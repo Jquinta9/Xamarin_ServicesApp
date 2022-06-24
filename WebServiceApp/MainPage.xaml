@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebServiceApp.MainPage">
+    <ScrollView>
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Encrypted Messaging App" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label x:Name="CacheLabel" Text="Cache: "/>
+        <Button x:Name="ResetButton" Text="Reset" Clicked="ResetButton_Clicked"/>
+        <Button x:Name="LocationButton" Text="Get Location" Clicked="LocationButton_Clicked"/>
+        <Label Text="Enter Text for Encrypting" FontSize= "20" Padding="30,0,30,0"/>
+        <Entry x:Name="EncryptEntry"/>
+        <Label x:Name="EncryptLabel" Text="Encrypted Text"/>
+        <Button x:Name="EncrypButton" Text="Encrypt" Clicked="EncryptButton_Clicked"/>
+        <Label Text="Encrypted Text for Decrypting" FontSize="20" Padding="30,0,30,0"/>
+        <Entry x:Name="DecryptEntry"/>
+        <Label x:Name="DecryptLabel" Text="Decrypted Text"/>
+        <Button x:Name="DecryptButton" Text="Decrypt" Clicked="DecryptButton_Clicked"/>
+        <Label Text="Send Encrypted Message" FontSize="25" Padding="30,0,30,0"/>
+        <Label Text="Enter Phone Number" FontSize= "20" Padding="30,0,30,0"></Label>
+        <Entry x:Name="PhoneNumberEntry"/>
+        <Button x:Name="SendButton" Text="Send" Clicked="SendButton_Clicked"/>
+        <Label x:Name="SendLabel" Text=""/>
+
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://github.com/jquinta9" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>
