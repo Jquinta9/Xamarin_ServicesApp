@@ -1,5 +1,4 @@
 # Xamarin_ServicesApp
 Xamarin application that allows the user to retrieve their current geographical location and send it as an encrypted text message.
 
-
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/28168507/175647142-e0324ef5-d556-4656-9a3f-32f07b7b5514.gif)
+![xamarinapp](https://user-images.githubusercontent.com/28168507/175648707-a8d0a1ed-2cf3-43aa-9516-01a40e028683.gif)
